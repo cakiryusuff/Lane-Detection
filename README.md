@@ -1,8 +1,9 @@
 # Lane-Detection
 # 1. Camera Calibration
 <p>Radial distortion causes straight lines to appear curved. Radial distortion becomes larger the farther points are from the center of the image.To remove this effect, We need to use camera calibration. You can see the difference between the 2 pictures.</p>
-<img src="Lane-Detection/readmePictures/distoredImage.PNG" width=500 />
-<img src="Lane-Detection/readmePictures/UndistortedImage.PNG" width=500 />
+
+ <div align=center ><img src="Lane-Detection/readmePictures/distoredImage.PNG" width=500 /></div>
+  <div align=center ><img src="Lane-Detection/readmePictures/UndistortedImage.PNG" width=500 /></div>
 
 
 # 2.Perspective Transform
