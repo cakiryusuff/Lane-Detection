@@ -419,7 +419,7 @@ int main() {
         lanes = find_lanes(result_g, left_fitx, right_fitx, ploty);
         final = draw_lines(mainFrame, result_g, left_fitx, right_fitx, ploty, Minv);
         
-        //imshow("Find Lanes", lanes);
+        imshow("Find Lanes", lanes);
         imshow("Final Frame", final);
 
         if (waitKey(20) == 27){
